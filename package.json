@@ -1,0 +1,23 @@
+{
+  "name": "oauth2-server",
+  "version": "1.0.0",
+  "description": "oauth2 server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadowWood/OAuth2-Server.git"
+  },
+  "keywords": [
+    "oauth2",
+    "node.js"
+  ],
+  "author": "ShadowWood & Maples7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadowWood/OAuth2-Server/issues"
+  },
+  "homepage": "https://github.com/ShadowWood/OAuth2-Server#readme"
+}
