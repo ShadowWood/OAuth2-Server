@@ -6,13 +6,12 @@
 */
 
 'use strict';
-
 const express = require('express');
-
 const router = express.Router();
+const path = require('path');
+const routes = require('express-mount-routes');
+const logger = require('../utils/logger');
 
-router.all('/', function(req, res, next) {
-  return res.send('hello world!');
-});
+routes(router, path.join(__dirname, '../controllers/v1'), {urlPrefix: '/api/'});
 
 module.exports = router;

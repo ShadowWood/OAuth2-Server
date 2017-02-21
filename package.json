@@ -15,6 +15,7 @@
     "connect-redis": "^3.2.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.1",
+    "express-mount-routes": "0.0.3",
     "express-session": "^1.15.1",
     "fs-extra": "^2.0.0",
     "log4js": "^1.1.0",
