@@ -1,1 +1,1 @@
-# Skeleton project for Swagger
+# OAuth2 Server
